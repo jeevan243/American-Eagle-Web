@@ -1,0 +1,39 @@
+body {
+    background-image:url("https://media.istockphoto.com/photos/woman-using-banking-app-on-the-smartphone-pay-utility-bill-financial-picture-id1331910730?b=1&k=20&m=1331910730&s=170667a&w=0&h=QlBX-Ep7vnd0aQFSb0J87Vfr4bWmRXMN2YkQmSljLZA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+body > div {
+  background-color: white;
+  width: 55%;
+  margin: auto;
+  padding: 25px;
+  margin-top: 100px;
+}
+#head {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Source Sans 3", sans-serif;
+}
+img {
+  width: 150px;
+  padding: 10px;
+}
+#content {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+#order,#add{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+span{
+    font-weight: 200;
+}
