@@ -1,0 +1,270 @@
+#topRightheader {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60%;
+  margin-right: 2%;
+  letter-spacing: 1px;
+}
+.fixed-header {
+  position: fixed;
+  width: 101%;
+  text-align: center;
+  background-color: white;
+  margin-top: -9px;
+  margin-left: -6.5px;
+}
+#topLogo {
+  width: 35%;
+  display: flex;
+  margin-left: 2%;
+  justify-content: space-between;
+}
+
+#searchFlex {
+  display: flex;
+}
+#search {
+  margin: auto;
+  width: 100px;
+  margin-right: 10px;
+  padding: 3px;
+}
+.fas {
+  margin: auto;
+  font-size: 15px;
+}
+#signIn {
+  margin: auto;
+  margin-left: 15px;
+  font-size: 10px;
+}
+#signinButton {
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  border: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+#logoandSearch {
+  display: flex;
+  margin-left: 600px;
+}
+#topRightheader > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+#quantity {
+  padding-top: 4px;
+  height: 15px;
+  background-color: yellowgreen;
+  width: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+#topLogo > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.logo {
+  font-weight: 400;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+a {
+  text-decoration: none;
+}
+#shopNow {
+  text-decoration: underline;
+}
+#shopNow:hover {
+  color: white;
+}
+.link {
+  padding-top: 7px;
+}
+.link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 2px 2px;
+}
+.thickBorder {
+  background-color: #edab00;
+  width: 100%;
+  height: 30px;
+}
+
+.thickBorder > p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color: #004b45;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: auto;
+}
+
+#homeTagDiv {
+  /* width: 100%; */
+  /* height: 40px; */
+  /* border: 1px solid black; */
+  background-color: #ebe7e7;
+  text-align: center;
+  font-size: 13px;
+  color: #9a9ca6;
+  padding: 2px 0;
+  /* margin-top: 200px; */
+}
+.maincontainer {
+  padding-top: 8%;
+}
+
+#hometext {
+  color: black;
+}
+#filtersdiv {
+  height: 70px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  /* display: grid; */
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.filters {
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+#pro_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* width: 100%; */
+  /* margin-bottom: 20; */
+  justify-content: center;
+  grid-gap: 0.5%;
+  margin-bottom: 80px;
+}
+#pro_div > div > img {
+  width: 315px;
+  height: 470px;
+  object-fit: cover;
+}
+
+#pro_div > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#nameFont {
+  font-family: "Avenir Next Regular";
+  font-size: 12.5px;
+  text-align: center;
+  line-height: 14px;
+}
+#price {
+  text-align: center;
+  font-size: 15px;
+}
+button {
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-weight: bold;
+  /* margin-bottom: 50px; */
+  /* margin-left: 34%; */
+}
+button:hover {
+  background-color: #edab00;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+img:hover {
+  cursor: pointer;
+}
+
+select,
+option {
+  width: 120px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 250px;
+}
+.tAndc {
+  font-size: 10px;
+}
+.referAndcard {
+  display: flex;
+  justify-content: space-around;
+}
+.referAndcard > p {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 50px;
+}
+.referAndcard > p,
+a {
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#trackDetails {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+}
+#box1,
+p {
+  margin-left: 11px;
+}
+#box1 > .options {
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+.subp {
+  font-size: 10px;
+}
+.copyRights {
+  font-size: 10px;
+  margin-left: 10px;
+}
+#box2 > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.underLine {
+  text-decoration: underline;
+}
+.hoverEffect:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#hover:hover {
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+#hover {
+  margin-right: -12px;
+}
+#itemsCartPage {
+  margin-left: -10px;
+  cursor: pointer;
+}
+.fas{
+  font-size: 12px;
+}
