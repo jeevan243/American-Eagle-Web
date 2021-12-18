@@ -1,0 +1,259 @@
+#topRightheader {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60%;
+  margin-right: 2%;
+  letter-spacing: 1px;
+}
+.fixed-header {
+  position: fixed;
+  width: 101%;
+  text-align: center;
+  background-color: white;
+  margin-top: -9px;
+  margin-left: -6.5px;
+}
+#topLogo {
+  width: 35%;
+  display: flex;
+  margin-left: 2%;
+  justify-content: space-between;
+}
+
+#searchFlex {
+  display: flex;
+}
+#search {
+  margin: auto;
+  width: 100px;
+  margin-right: 10px;
+  padding: 3px;
+}
+.fas {
+  margin: auto;
+  font-size: 15px;
+}
+#signIn {
+  margin: auto;
+  margin-left: 15px;
+  font-size: 10px;
+}
+#signinButton {
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  border: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+#logoandSearch {
+  display: flex;
+  margin-left: 600px;
+}
+#topRightheader > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+#quantity {
+  height: 20px;
+  background-color: yellowgreen;
+  width: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+}
+#topLogo > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.logo {
+  font-weight: 400;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+}
+#shopNow {
+  text-decoration: underline;
+}
+#shopNow:hover {
+  color: white;
+}
+.link {
+  padding-top: 7px;
+}
+.link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 2px 2px;
+}
+.thickBorder {
+  background-color: #edab00;
+  width: 100%;
+  height: 35px;
+}
+
+.thickBorder > p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color: #004b45;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 3px;
+}
+
+#itemsCartPage {
+  cursor: pointer;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.backgroundImage {
+  margin-top: 2px;
+  width: 100%;
+  height: 900px;
+  background-image: url(https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  
+}
+.container {
+  margin-left: 40px;
+  padding-top: 100px;
+}
+#form > input {
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 10PX;
+  
+}
+#gender,
+#category {
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#form > p {
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btns {
+  margin-top: 30px;
+ 
+}
+#btns > input {
+  width: 120px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #de5d83;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid black;
+  margin-left: 10PX;
+}
+#prod {
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: chocolate;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 3px solid black;
+  margin-left: 10PX;
+}
+header{
+  background-attachment: sticky;
+}
+.tAndc {
+  font-size: 10px;
+}
+.referAndcard {
+  display: flex;
+  justify-content: space-around;
+}
+.referAndcard > p {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 50px;
+}
+.referAndcard > p,
+a {
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#trackDetails {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+}
+#box1,
+p {
+  margin-left: 11px;
+}
+#box1 > .options {
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+.subp {
+  font-size: 10px;
+}
+.copyRights {
+  font-size: 10px;
+  margin-left: 10px;
+}
+#box2 > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.underLine {
+  text-decoration: underline;
+}
+.hoverEffect:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#hover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#prod:hover{
+  background-color: blue;
+  color: white;
+  border: 3px solid black;
+  
+}
+#btns :hover{
+  color: white;
+  background-color: blue;
+  border: 3px solid black;
+}
