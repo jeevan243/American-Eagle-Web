@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="paymentform.css" />
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2>Payment Form</h2>
+      <form id="form">
+        <!--Account Information Start-->
+        <h4>Account</h4>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              id="text"
+              placeholder="Full Name"
+              required
+              class="name"
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              id="text"
+              placeholder="Name on Card"
+              required
+              class="name"
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="email"
+              id="text"
+              placeholder="Email Address"
+              required
+              class="name"
+            />
+            <i class="fa fa-envelope icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              id="text"
+              placeholder="Address"
+              required
+              class="name"
+            />
+            <i class="fa fa-map-marker icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              id="text"
+              placeholder="City"
+              required
+              class="name"
+            />
+            <i class="fa fa-institution icon"></i>
+          </div>
+        </div>
+        <!--Account Information End-->
+
+        <!--DOB & Gender Start-->
+        <div class="input_group">
+          <div class="input_box" id="text">
+            <h4>Date Of Birth</h4>
+            <input type="text" placeholder="DD" required class="dob" />
+            <input type="text" placeholder="MM" required class="dob" />
+            <input type="text" placeholder="YYYY" required class="dob" />
+          </div>
+          <div class="input_box" id="text">
+            <h4>Gender</h4>
+            <input type="radio" name="gender" class="radio" id="b1" checked />
+            <label for="b1">Male</label>
+            <input type="radio" name="gender" class="radio" id="b2" />
+            <label for="b2">Female</label>
+          </div>
+        </div>
+        <!--DOB & Gender End-->
+
+        <!--Payment Details Start-->
+        <div class="input_group">
+          <div class="input_box">
+            <h4>Payment Details</h4>
+            <input type="radio" name="pay" class="radio" id="bc1" checked />
+            <label for="bc1"
+              ><span> <i class="fa fa-cc-visa"></i>Credit Card</span></label
+            >
+            <input type="radio" name="pay" class="radio" id="bc2" />
+            <label for="bc2"
+              ><span> <i class="fa fa-cc-paypal"></i>Paypal</span></label
+            >
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              id="card"
+              class="name"
+              placeholder="Enter Card Number 1111 2222 3333 4444"
+              required
+            />
+            <i class="fa fa-credit-card icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="password"
+              id="cvv"
+              class="name"
+              placeholder="Enter CVV"
+              required
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+           
+
+            <div class="input_box">
+              <select required class="name">
+                <option value="">Card Expiry Month</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+              </select>
+              <i class="fa fa-calendar icon"></i>
+            </div>
+          </div>
+          <div class="input_box">
+            <select required class="name">
+              <option>Card Expiry Year</option>
+              <option>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+              <option>2026</option>
+              <option>2027</option>
+              <option>2028</option>
+              <option>2029</option>
+              <option>2030</option>
+              <option>2031</option>
+            </select>
+            <i class="fa fa-calendar-o icon"></i>
+          </div>
+        </div>
+        <div class="input_box">
+       
+          <p id="amount"></p>
+          <!-- <i class="fa fa-money icon"></i> -->
+        </div>
+        <!--Payment Details End-->
+        <div class="input_group">
+          <div class="input_box">
+            <button id="sub" type="submit">PAY NOW</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="paymentform.js"></script>
