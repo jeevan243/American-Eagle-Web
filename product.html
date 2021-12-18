@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css" />
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="fixed-header">
+      <div id="topRightheader">
+        <p class="hoverEffect">E-Gift Card</p>
+        <p class="hoverEffect">Store Locator</p>
+        <p class="hoverEffect">Track Order</p>
+        <p class="hoverEffect">My AEO</p>
+        <p class="hoverEffect"><i class="fas fa-heart"> </i> Favorites</p>
+        <p id="hover"><i class="fas fa-shopping-bag"></i></p>
+        <p id="quantity"></p>
+        <p id="itemsCartPage">Items</p>
+      </div>
+      <div id="searchFlex">
+        <div id="topLogo">
+          <a href="landingPage.html"> <p class="logo">AMERICAN EAGLE</p></a>
+          <a href="product.html"><p class="link">Men</p></a>
+          <a href="product.html"> <p class="link">Women</p></a>
+          <a href="product.html"><p class="link">Jeans</p></a>
+          <a href="product.html"><p class="link">Clearance</p></a>
+        </div>
+        <div id="logoandSearch">
+          <input type="text" id="search" placeholder="Search" />
+          <i class="fas fa-search"></i>
+          <div id="signIn">
+            <a href="checkout.html">
+              <button id="signinButton">Check-Out</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="thickBorder">
+        <p>
+          Buy 2 and Get 40% off on the linked products.Use AEB2G40 |
+          <a id="shopNow" href="">Shop Now</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="maincontainer">
+      <div id="homeTagDiv">
+        <p><a href="" id="hometext">Home</a> / collections</p>
+      </div>
+      <div id="filtersdiv">
+        <h3>COLLECTIONS</h3>
+
+        <div class="filters">
+          <select name="" id="Gender" onchange="genderFilter()">
+            <option value="gender">Gender</option>
+            <option value="Male">MALE</option>
+            <option value="Female">FEMALE</option>
+          </select>
+
+          <select name="" id="category" onchange="categoryFilter()">
+            <option value="">Category</option>
+            <option value="Shirts">Shirt</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Jeans">Jeans</option>
+            <option value="T-Shirts">T-shirt</option>
+          </select>
+        </div>
+      </div>
+      <div id="pro_div"></div>
+    </div>
+
+    <div class="footer">
+      <hr />
+      <div class="referAndcard">
+        <p>
+          Want 25% off your purchase?&ensp;
+          <a href="" class="underLine"> Refer A friend!</a>
+        </p>
+        <p>
+          A gift that always fits.&ensp;
+          <a href="" class="underLine"> Shop E-Gift Card</a>
+        </p>
+      </div>
+    </div>
+    <div id="trackDetails">
+      <div id="box1">
+        <p><i class="fas fa-credit-card"></i> &ensp; PAYMENT OPTIONS</p>
+        <p class="options">Credit,Debit,Paytm Wallet & more.</p>
+        <p><i class="fas fa-map-marker-alt"></i>&ensp; &ensp; STORE LOCATOR</p>
+        <p><i class="fas fa-envelope"></i>&ensp; &ensp; EMAIL SIGN UP</p>
+      </div>
+      <div id="box2">
+        <p><i class="fas fa-truck-moving"></i> &ensp; TRACK ORDER</p>
+        <p class="subp">ABOUT AEO</p>
+        <p class="subp">FREQUENTLY ASKED QUESTIONS</p>
+        <p class="subp">RETURNS POLICY</p>
+        <p class="subp">CANCELLATION POLICY</p>
+        <p class="subp">SHIPPING POLICY</p>
+        <p class="subp">TERMS AND CONDITIONS OF USE</p>
+        <p class="subp">OFFER TERMS AND CONDITIONS</p>
+        <p class="subp">PRIVACY POLICY</p>
+        <p class="subp">SITE MAP</p>
+      </div>
+      <div id="box3">
+        <p><i class="fas fa-question-circle"></i> &ensp;HAVE A QUESTION ?</p>
+        <p class="hoverEffect">&ensp; &ensp; CUSTOMER SUPPORT</p>
+        <br />
+        <br />
+        <p>
+          FOLLOW US <br />
+          <br />
+          <i id="hover" class="fab fa-facebook-f"></i> &ensp;
+          <i id="hover" class="fab fa-instagram"></i>
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="copyRights">
+      <p>© 2021 AEO Management Co. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
+
+<script src="product.js"></script>
