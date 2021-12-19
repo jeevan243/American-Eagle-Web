@@ -14,6 +14,10 @@
 #mail{
     padding-top: 23px;
 }
+#head >h2{
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 hr {
   font-size: 0px;
@@ -112,7 +116,7 @@ h4 {
   border-bottom: 2px solid black;
 }
 #pay {
-  padding: 5px 50px;
+  padding: 5px 20px;
   margin: 30px 280px;
 }
 #pay:hover {
@@ -127,3 +131,12 @@ img{
 height: 180px;
 margin-right: 20px;
 }
+hr{
+  margin-bottom:10px;
+  background-color: black;
+}
+.select{
+  width:70px;
+  height:35px;
+}
+
