@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+3:wght@300;600&family=Source+Sans+Pro:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+
+  <body>
+    <div id="head">
+      <h2>AMERICAN EAGLE</h2>
+      <div id="mail">
+        <div><i class="fas fa-envelope-open"></i></div>
+        <div>happytohelp@aeo.in</div>
+      </div>
+    </div>
+    <hr />
+    <div id="body">
+      <div id="left">
+        <div>
+          <p id="quantity"></p>
+          <div id="cart"></div>
+        </div>
+
+        <div id="account">
+          2.ACCOUNT DETAILS
+          <div>Account : <span>golivisaitejas@gmail.com</span></div>
+        </div>
+        <div id="address">
+          3.SHIPPING DETAILS
+          <div>
+            <select>
+              <option value="">select</option>
+              <option value="">Home</option>
+              <option value="">Work</option>
+              <option value=""></option>
+            </select>
+            <input id="door" type="text" placeholder="D/NO" /><br />
+            <input id="street" type="text" placeholder="Street/Colony" /><br />
+            <input id="town" type="text" placeholder="Town/City" /><br />
+            <input id="dis" type="text" placeholder="District" /><br />
+            <input id="state" type="text" placeholder="State" /><br />
+            <input id="pin" type="number" placeholder="Pin-Code" /><br />
+            <input id="phone" type="number" placeholder="Phone Number" />
+            <input type="button" id="del" value="DELIVER HERE" />
+          </div>
+        </div>
+        <button id="pay">PROCEED TO PAYMENT</button>
+      </div>
+      <div id="right">
+        <div>
+          <h2>Order Summary</h2>
+          <div id="flex">
+            <p>Order Value</p>
+            <p id="price"></p>
+          </div>
+          <div id="flex">
+            <p id="ship">Shipping</p>
+            <p>FREE</p>
+          </div>
+          <div id="flex">
+            <p id="bold">ORDER TOTAL</p>
+            <p id="Tprice"></p>
+          </div>
+          <div id="flex">
+            <p>% check for offers</p>
+            <button id="bold">APPLY NOW</button>
+          </div>
+
+          <h4>
+            Safe and Secure Payments.<br />Easy returns.100% Authentic products
+          </h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="checkout.js"></script>

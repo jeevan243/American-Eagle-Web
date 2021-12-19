@@ -1,0 +1,129 @@
+/* body{
+    background-color: rgb(223, 230, 233);
+} */
+#head {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#mail{
+    padding-top: 23px;
+}
+
+hr {
+  font-size: 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#head > div {
+  display: flex;
+}
+#head > :nth-child(1) {
+  font-size: 20px;
+}
+#head > div > :nth-child(2) {
+  margin-left: 10px;
+  font-size: 18px;
+}
+#body {
+  width: 88%;
+  margin: auto;
+  display: flex;
+}
+#left {
+  border: 1px solid transparent;
+  width: 65%;
+}
+#right {
+  border: 1px solid transparent;
+  width: 27%;
+  margin-left: 30px;
+}
+#left > div {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 30px;
+  width: 90%;
+  margin-top: 50px;
+}
+#account {
+  display: flex;
+}
+#account > div {
+  margin-left: 70px;
+  font-weight: 100;
+}
+input {
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 10px;
+  margin-right: 120px;
+}
+#del {
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#cart,
+#account,
+#address {
+  font-weight: bold;
+}
+#address,
+#right > div {
+  background-color: #f0f0f0;
+}
+span {
+  font-weight: 100;
+}
+#right > div {
+  border: 1px solid transparent;
+  width: auto;
+  margin-top: 50px;
+  height: auto;
+}
+#flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+div > h2,
+h4 {
+  padding: 5px 30px;
+}
+#right > div > :nth-child(5) {
+  border: 1px dashed black;
+  margin: auto;
+  margin: 5px 30px;
+}
+#right > div > :nth-child(5) > button {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+#right > div > :nth-child(3) {
+  border-bottom: 2px solid black;
+}
+#pay {
+  padding: 5px 50px;
+  margin: 30px 280px;
+}
+#pay:hover {
+  background-color: rgb(118, 118, 136);
+  color: white;
+}
+.row{
+    display: flex;
+    
+}
+img{
+height: 180px;
+margin-right: 20px;
+}
