@@ -237,8 +237,56 @@ var productsObject =
         "price": "3100",
         "gender": "Male",
         "category": "Top"
+    },
+    {
+        "image": "https://aeo.imgix.net/img/app/product/6/644932-6456314.jpg?auto=format",
+        "name": "American Eagle Men Burgundy Super Soft Graphic T-Shirt",
+        "price": "2599",
+        "gender": "Male",
+        "category": "Shirts"
+    },
+    {
+        "image": "https://aeo.imgix.net/img/app/product/6/644910-6455157.jpg?auto=format",
+        "name": "American Eagle Men Red Super Soft Flannel Shirt",
+        "price": "3000",
+        "gender": "Male",
+        "category": "Shirts"
+    },
+    {
+        "image": "https://aeo.imgix.net/img/app/product/6/643909-6437538.jpg?auto=format",
+        "name": "American Eagle Men Blue Flex Slim Chino",
+        "price": "3299",
+        "gender": "Male",
+        "category": "Jeans"
+    },
+    {
+        "image": "https://aeo.imgix.net/img/app/product/6/643907-6437516.jpg?auto=format",
+        "name": "American Eagle Men Blue Flex Slim Chino",
+        "price": "4299",
+        "gender": "Male",
+        "category": "Jeans"
+    },
+    {
+        "image": "https://static.langimg.com/thumb/msid-82028507,imgsize-63684,width-700,height-525,resizemode-75/navbharat-times.jpg",
+        "name": "American Eagle Men Blue Flex shoes",
+        "price": "4299",
+        "gender": "Male",
+        "category": "Shoes"
+    },
+    {
+        "image": "https://assets.vogue.com/photos/6128027eb5cae63a108a2de7/master/w_1600%2Cc_limit/liana-shoes.jpg",
+        "name": "American Eagle Men Blue Flex shoes",
+        "price": "4299",
+        "gender": "Female",
+        "category": "Shoes"
+    },
+    {
+        "image": "https://media.wired.com/photos/5e320d1dce1d970008fbe79a/1:1/w_2400,c_limit/Gear-Books-100032_188_L_Hyperion_Elite.jpg",
+        "name": "American Eagle Men Blue Flex shoes",
+        "price": "5099",
+        "gender": "Male",
+        "category": "Shoes"
     }
-    
 ]
 
 
