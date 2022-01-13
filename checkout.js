@@ -54,23 +54,27 @@ function displaytable(cart) {
   });
   function deletetask(index) {
     cart.splice(index, 1);
-      localStorage.setItem("cart_Items", JSON.stringify(cart));
+    localStorage.setItem("cart_Items", JSON.stringify(cart));
+    count();
     displaytable(cart);
-    }
+  }
 }
-var pr = 0;
+function count() {
+  var pr = 0;
   var count = 0;
-for (var i = 0; i < cart.length; i++) {
+  for (var i = 0; i < cart.length; i++) {
     pr += +cart[i].price;
     count++;
   }
   document.querySelector("#price").textContent =
     "Total Price - " + " " + pr + " " + "Rs";
-document.querySelector("#quantity").textContent = "Your Cart" + " " + count + " " + "Item(s)";
+  document.querySelector("#quantity").textContent = "Your Cart" + " " + count + " " + "Item(s)";
 
-document.querySelector("#Tprice").textContent= pr +" "+ "Rs"
-        
+  document.querySelector("#Tprice").textContent = pr + " " + "Rs"
+  localStorage.setItem("totalprice", JSON.stringify(pr))
+}
+count();
 // var tprice = []
 // tprice.push(pr)
 
-localStorage.setItem("totalprice",JSON.stringify(pr) )
+
