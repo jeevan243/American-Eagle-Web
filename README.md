@@ -35,9 +35,9 @@ https://jeevan243.github.io/American-Eagle-Web/
 
 ### Pages & Features :point_down:
 
-- `Home Page`: Responsiveness, WhatsApp Chat.
+- `Home Page`: use same images exactly looking as original website.
 - `Sign-Up Page`: User details validated directly from local stroage.
-- `Sign-In Page`: User authentication to check whether user email and password match with details existing in the loacal storage.
+- `Sign-In Page`: User authentication to check whether user email and password match with details existing in the local storage.
 - `Product Category Page`: Products created dynamically, with sorting and filtering features.
 - `Cart Page`: User can see or remove products added in the cart.
 - `Wishlist Page`: Users can add or remove products to the wishlist.
@@ -50,7 +50,7 @@ https://jeevan243.github.io/American-Eagle-Web/
 
 ### How To Use ✅
 
-First you have to have to go to the signup page and create a new account. Then you will be find an alert that signup successful. After the signup process is completed you have to login with the same details you wil redirected to landing page. You can now go to the category page and navigate to add products to the cart. After that you can proceed to the checkout page. you will redirected to the checkout page and add your address and proceed to payment page to add your debit/credit card detials to place your order successfully. 
+First you have to have to go to the signup page and create a new account. Then you will be find an alert that signup successful. After the signup process is completed you have to login with the same details you will redirected to landing page. You can now go to the category page and navigate to add products to the cart. After that you can proceed to the checkout page. you will redirected to the checkout page and add your address and proceed to payment page to add your debit/credit card detials to place your order successfully. 
 
 ---
 
