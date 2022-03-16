@@ -65,6 +65,7 @@ First you have to have to go to the signup page and create a new account. Then y
 
 ### Screenshots:
 <hr/>
+
 ## Home_Page
 
 ![Screenshot (400)](https://user-images.githubusercontent.com/95854153/158534981-ef3b0090-a5a0-4d4f-a393-6c0b2e16d9c7.png)
