@@ -66,7 +66,7 @@ First you have to have to go to the signup page and create a new account. Then y
 ### Screenshots:
 <hr/>
 ## Home_Page
-![Screenshot (400)](https://user-images.githubusercontent.com/95854153/158532363-bbaf2190-6a74-4cf5-af88-9b2ef91d6617.png)
+![Screenshot (400)](https://user-images.githubusercontent.com/95854153/158534981-ef3b0090-a5a0-4d4f-a393-6c0b2e16d9c7.png)
 
 ## Products_Page
 ![Screenshot (401)](https://user-images.githubusercontent.com/95854153/158534510-bf22be74-877b-447d-9c87-d8707648967a.png)
