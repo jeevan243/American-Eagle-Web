@@ -5,7 +5,6 @@
 ---
 # Welcome :wave:
 ---
----
 # Link to our Project website:
 
 https://jeevan243.github.io/American-Eagle-Web/
