@@ -7,7 +7,7 @@
 ---
 # Link to our Project website:
 
-
+https://jeevan243.github.io/American-Eagle-Web/
 ---
 
 ### About this project: :raised_hands:
@@ -66,15 +66,19 @@ First you have to have to go to the signup page and create a new account. Then y
 ### Screenshots:
 <hr/>
 ## Home_Page
+
 ![Screenshot (400)](https://user-images.githubusercontent.com/95854153/158534981-ef3b0090-a5a0-4d4f-a393-6c0b2e16d9c7.png)
 
 ## Products_Page
+
 ![Screenshot (401)](https://user-images.githubusercontent.com/95854153/158534510-bf22be74-877b-447d-9c87-d8707648967a.png)
 
-##Cart_Page
+## Cart_Page
+
 ![Screenshot (405)](https://user-images.githubusercontent.com/95854153/158534638-4b24f974-b5d5-4c1b-aaf6-4b5c5aa8e138.png)
 
-##Payment_Page
+## Payment_Page
+
 ![Screenshot (407)](https://user-images.githubusercontent.com/95854153/158534819-63bed0be-1724-49d9-ba44-3c19f6b4334f.png)
 
 
