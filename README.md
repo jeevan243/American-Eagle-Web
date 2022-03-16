@@ -1,4 +1,6 @@
 # American-Eagle Clone
+
+<p> American Eagle is an E-commerce website where you can buy new American Eagle Branded Clothes online.You can filter the dresses by costs, Price Range etc..You can add the items in carts and wishlist then buy the products by checking out.<p/>
 ---
 
 ---
