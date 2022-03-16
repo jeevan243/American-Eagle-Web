@@ -7,7 +7,7 @@
 ---
 # Link to our Project website:
 
-jeevan243.github.io/american-eagle-web/
+
 ---
 
 ### About this project: :raised_hands:
@@ -65,7 +65,8 @@ First you have to have to go to the signup page and create a new account. Then y
 
 ### Screenshots:
 
-![image](file:///C:/Users/goliv/Dropbox/PC/Downloads/Screenshot%20(400)%20(1).webp)
+![image](![Screenshot (400)](https://user-images.githubusercontent.com/95854153/158532363-bbaf2190-6a74-4cf5-af88-9b2ef91d6617.png)
+)
 ![image]()
 ![image]()
 ![image]()
