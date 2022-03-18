@@ -35,7 +35,7 @@ https://jeevan243.github.io/American-Eagle-Web/
 
 ### Pages & Features :point_down:
 
-- `Home Page`: use same images exactly looking as original website.
+- `Home Page`: Kept same images exactly looking as original website.
 - `Sign-Up Page`: User details validated directly from local stroage.
 - `Sign-In Page`: User authentication to check whether user email and password match with details existing in the local storage.
 - `Product Category Page`: Products created dynamically, with sorting and filtering features.
