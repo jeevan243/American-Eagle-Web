@@ -7,7 +7,7 @@
 ---
 # Link to our Project website:
 
-https://jeevan243.github.io/American-Eagle-Web/
+https://american-eagle-web-clone.vercel.app/
 ---
 
 ### About this project: :raised_hands:
