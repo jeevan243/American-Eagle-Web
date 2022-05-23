@@ -290,7 +290,7 @@ var productsObject =
 ]
 
 
-var products = JSON.parse(localStorage.getItem("shoppingItems"))
+var products = JSON.parse(localStorage.getItem("shoppingItems")) || []
 // console.log(products);
 // var products = JSON.parse(productsObject);
 var cart_Items = []
